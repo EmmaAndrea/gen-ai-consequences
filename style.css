@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(251, 241, 225); text-align: center;
+  color: rgb(145, 95, 64);
+  font-family:'freight-big-pro';
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: rgb(250, 113, 28);
+  font-family: 'freight-big-pro';
+  font-size: 101px;
+  font-weight: normal;
+  letter-spacing: -6.5px;
+  overflow-wrap: break-word;
+}
+
+h2 {
+  color: rgb(145, 95, 64);
+  font-family: 'freight-big-pro';
+  font-size: 70px;
+  font-weight: normal;
+  letter-spacing: -4.5px;
+  overflow-wrap: break-word;
+}
+
+p, a {
+  color: rgb(145, 95, 64);
+  font-family:'freight-big-pro';
+  font-weight: normal;
+  letter-spacing: -0.5px;
+  font-size: 25px;
+}
+
+.five_reasons {
+    font-size: 60px;
+}
+
+.sources{
+    font-size: 40px;
+}
+
+a:hover h1{
+  color: hotpink;
+}
+
+a:hover h2{
+  color: hotpink;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.menu {
+  padding: 15px;
+  border-bottom: solid 1px;
+  text-align: right;
+}
+
+.footer {
+  margin-top: 15px;
+  padding: 15px;
+  border-top: solid 1px;
+  text-align: right;
+}
