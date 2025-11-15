@@ -1,8 +1,13 @@
 body {
-  background-color: rgb(251, 241, 225); text-align: center;
+  background-color: rgb(251, 241, 225); 
+  text-align: center;
   color: rgb(145, 95, 64);
   font-family:'freight-big-pro';
   margin-bottom: 10px;
+}
+
+.page {
+    padding: 0 20% 0 20%;
 }
 
 h1 {
@@ -28,14 +33,22 @@ p, a {
   font-family:'freight-big-pro';
   font-weight: normal;
   letter-spacing: -0.5px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .five_reasons {
-    font-size: 60px;
+    font-size: 40px;
 }
 
-.sources{
+.five_reasons p {
+    font-size: 30px;
+}
+
+ol {
+  padding: 0;
+}
+
+.sources, .sources a {
     font-size: 40px;
 }
 
@@ -67,3 +80,30 @@ a:link {
   border-top: solid 1px;
   text-align: right;
 }
+
+/* phone */
+    @media (max-width: 400px) {
+      h1 {
+        font-size: 45px;
+        letter-spacing: -3.5px;
+
+      }
+
+      h2 {
+        font-size: 35px;
+        letter-spacing: -2.5px;
+      }
+
+      a {
+        font-size: 1.2rem;
+      }
+
+      .five_reasons, .five_reasons p {
+          font-size: 30px;
+      }
+
+      .sources, .sources a {
+          font-size: 1rem;
+      }
+  
+    }
