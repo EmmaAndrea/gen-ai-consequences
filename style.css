@@ -15,7 +15,6 @@ h1 {
   color: rgb(56, 56, 111);
   font-family:'Space Mono', monospace;
   font-weight: normal;
-  overflow-wrap: break-word;
   padding: 0 10% 0 10%;
 
 }
@@ -25,7 +24,6 @@ h2 {
   font-size: 70px;
   font-family:'Muli', sans-serif;
   font-weight: normal;
-  overflow-wrap: break-word;
 }
 
 h3 {
