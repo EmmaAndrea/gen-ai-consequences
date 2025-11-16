@@ -94,7 +94,7 @@ a:link {
 }
 
 /* phone */
-    @media (max-width: 400px) {
+    @media (max-width: 500px) {
       .page, .sources {
             padding: 0 2% 0 2%;
       }
