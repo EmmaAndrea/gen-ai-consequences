@@ -26,6 +26,13 @@ h2 {
   overflow-wrap: break-word;
 }
 
+h3 {
+    font-family:'Muli', sans-serif;
+    font-weight: 700;
+    color: rgb(23, 23, 82)
+
+}
+
 p, a {
   color: rgb(56, 56, 111);
   font-family:'Muli', sans-serif;
@@ -88,15 +95,19 @@ a:link {
 
 /* phone */
     @media (max-width: 400px) {
+      .page, .sources {
+            padding: 0 2% 0 2%;
+      }
       h1 {
-        font-size: 45px;
-        letter-spacing: -3.5px;
-
+        font-size: 35px;
       }
 
       h2 {
-        font-size: 35px;
-        letter-spacing: -2.5px;
+        font-size: 30px;
+      }
+
+      h3 {
+        font-size: 28px;
       }
 
       a {
@@ -104,11 +115,15 @@ a:link {
       }
 
       .five_reasons, .five_reasons p {
-          font-size: 30px;
+          font-size: 20px;
+      }
+
+      .five_reasons b {
+          font-size: 22px;
       }
 
       .sources, .sources a {
-          font-size: 1rem;
+          font-size: 25px;
       }
   
     }
